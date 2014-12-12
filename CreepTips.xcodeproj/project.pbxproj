@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A03F3C3F1A39396600B7D075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C3E1A39396600B7D075 /* main.m */; };
 		A03F3C421A39396600B7D075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C411A39396600B7D075 /* AppDelegate.m */; };
 		A03F3C451A39396600B7D075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C441A39396600B7D075 /* ViewController.m */; };
-		A03F3C481A39396600B7D075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03F3C461A39396600B7D075 /* Main.storyboard */; };
-		A03F3C4A1A39396600B7D075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03F3C491A39396600B7D075 /* Images.xcassets */; };
-		A03F3C4D1A39396600B7D075 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03F3C4B1A39396600B7D075 /* LaunchScreen.xib */; };
 		A03F3C591A39396600B7D075 /* CreepTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C581A39396600B7D075 /* CreepTipsTests.m */; };
+		A03F3C6E1A398C8C00B7D075 /* LXPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C6D1A398C8C00B7D075 /* LXPNavigationController.m */; };
+		A03F3C711A39905E00B7D075 /* LXPTipsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C701A39905E00B7D075 /* LXPTipsListController.m */; };
+		A03F3C741A39922D00B7D075 /* LXPTipsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C731A39922D00B7D075 /* LXPTipsListView.m */; };
+		A03F3C761A39AF5800B7D075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C751A39AF5800B7D075 /* main.m */; };
+		A03F3C781A39C96B00B7D075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03F3C771A39C96B00B7D075 /* Images.xcassets */; };
+		A03F3C7C1A39CD9A00B7D075 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03F3C7B1A39CD9A00B7D075 /* main.storyboard */; };
+		A03F3C811A39D0A000B7D075 /* NavigationBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F3C801A39D0A000B7D075 /* NavigationBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +31,24 @@
 
 /* Begin PBXFileReference section */
 		A03F3C391A39396600B7D075 /* CreepTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreepTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A03F3C3D1A39396600B7D075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A03F3C3E1A39396600B7D075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A03F3C401A39396600B7D075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A03F3C411A39396600B7D075 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A03F3C431A39396600B7D075 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A03F3C441A39396600B7D075 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A03F3C471A39396600B7D075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A03F3C491A39396600B7D075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A03F3C4C1A39396600B7D075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A03F3C521A39396600B7D075 /* CreepTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreepTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F3C571A39396600B7D075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A03F3C581A39396600B7D075 /* CreepTipsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreepTipsTests.m; sourceTree = "<group>"; };
+		A03F3C6C1A398C8C00B7D075 /* LXPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPNavigationController.h; sourceTree = "<group>"; };
+		A03F3C6D1A398C8C00B7D075 /* LXPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPNavigationController.m; sourceTree = "<group>"; };
+		A03F3C6F1A39905E00B7D075 /* LXPTipsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPTipsListController.h; sourceTree = "<group>"; };
+		A03F3C701A39905E00B7D075 /* LXPTipsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPTipsListController.m; sourceTree = "<group>"; };
+		A03F3C721A39922D00B7D075 /* LXPTipsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPTipsListView.h; sourceTree = "<group>"; };
+		A03F3C731A39922D00B7D075 /* LXPTipsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPTipsListView.m; sourceTree = "<group>"; };
+		A03F3C751A39AF5800B7D075 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A03F3C771A39C96B00B7D075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A03F3C7B1A39CD9A00B7D075 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		A03F3C7F1A39D0A000B7D075 /* NavigationBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarItem.h; sourceTree = "<group>"; };
+		A03F3C801A39D0A000B7D075 /* NavigationBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,25 +90,22 @@
 		A03F3C3B1A39396600B7D075 /* CreepTips */ = {
 			isa = PBXGroup;
 			children = (
+				A03F3C7E1A39D07F00B7D075 /* Navigation */,
+				A03F3C7B1A39CD9A00B7D075 /* main.storyboard */,
+				A03F3C771A39C96B00B7D075 /* Images.xcassets */,
+				A03F3C751A39AF5800B7D075 /* main.m */,
 				A03F3C401A39396600B7D075 /* AppDelegate.h */,
 				A03F3C411A39396600B7D075 /* AppDelegate.m */,
 				A03F3C431A39396600B7D075 /* ViewController.h */,
 				A03F3C441A39396600B7D075 /* ViewController.m */,
-				A03F3C461A39396600B7D075 /* Main.storyboard */,
-				A03F3C491A39396600B7D075 /* Images.xcassets */,
-				A03F3C4B1A39396600B7D075 /* LaunchScreen.xib */,
-				A03F3C3C1A39396600B7D075 /* Supporting Files */,
+				A03F3C6C1A398C8C00B7D075 /* LXPNavigationController.h */,
+				A03F3C6D1A398C8C00B7D075 /* LXPNavigationController.m */,
+				A03F3C6F1A39905E00B7D075 /* LXPTipsListController.h */,
+				A03F3C701A39905E00B7D075 /* LXPTipsListController.m */,
+				A03F3C721A39922D00B7D075 /* LXPTipsListView.h */,
+				A03F3C731A39922D00B7D075 /* LXPTipsListView.m */,
 			);
 			path = CreepTips;
-			sourceTree = "<group>";
-		};
-		A03F3C3C1A39396600B7D075 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A03F3C3D1A39396600B7D075 /* Info.plist */,
-				A03F3C3E1A39396600B7D075 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A03F3C551A39396600B7D075 /* CreepTipsTests */ = {
@@ -117,6 +123,15 @@
 				A03F3C571A39396600B7D075 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A03F3C7E1A39D07F00B7D075 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A03F3C7F1A39D0A000B7D075 /* NavigationBarItem.h */,
+				A03F3C801A39D0A000B7D075 /* NavigationBarItem.m */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03F3C481A39396600B7D075 /* Main.storyboard in Resources */,
-				A03F3C4D1A39396600B7D075 /* LaunchScreen.xib in Resources */,
-				A03F3C4A1A39396600B7D075 /* Images.xcassets in Resources */,
+				A03F3C781A39C96B00B7D075 /* Images.xcassets in Resources */,
+				A03F3C7C1A39CD9A00B7D075 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03F3C6E1A398C8C00B7D075 /* LXPNavigationController.m in Sources */,
 				A03F3C451A39396600B7D075 /* ViewController.m in Sources */,
 				A03F3C421A39396600B7D075 /* AppDelegate.m in Sources */,
-				A03F3C3F1A39396600B7D075 /* main.m in Sources */,
+				A03F3C811A39D0A000B7D075 /* NavigationBarItem.m in Sources */,
+				A03F3C711A39905E00B7D075 /* LXPTipsListController.m in Sources */,
+				A03F3C761A39AF5800B7D075 /* main.m in Sources */,
+				A03F3C741A39922D00B7D075 /* LXPTipsListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +260,6 @@
 			targetProxy = A03F3C531A39396600B7D075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A03F3C461A39396600B7D075 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A03F3C471A39396600B7D075 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A03F3C4B1A39396600B7D075 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A03F3C4C1A39396600B7D075 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A03F3C5A1A39396600B7D075 /* Debug */ = {
@@ -299,7 +298,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -342,8 +341,9 @@
 		A03F3C5D1A39396600B7D075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CreepTips/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/CreepTipsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,8 +352,9 @@
 		A03F3C5E1A39396600B7D075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CreepTips/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/CreepTipsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +413,7 @@
 				A03F3C5E1A39396600B7D075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A03F3C5F1A39396600B7D075 /* Build configuration list for PBXNativeTarget "CreepTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +422,7 @@
 				A03F3C611A39396600B7D075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
